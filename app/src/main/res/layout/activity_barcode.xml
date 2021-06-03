@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    tools:context=".BarcodeActivity">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewBarcode"
+        android:layout_width="310dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="45dp"/>
+
+    <Button
+        android:id="@+id/bardetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Scanning"
+        android:textSize="18sp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/scan_btn"/>
+
+
+</FrameLayout>

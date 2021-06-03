@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backcolor"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/btnCameraActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_color"
+        android:text="OPEN CAMERAX"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnBarcodeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARCODE SCANNER"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnFaceDetectActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACE DETECTION"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:background="@drawable/btn_color"/>
+
+    <Button
+        android:id="@+id/btnImageLabelActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_color"
+        android:text="Image Label DETECT"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnTextRecoglActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_color"
+        android:text="TEXT RECOGNITION"
+        android:textSize="18sp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
